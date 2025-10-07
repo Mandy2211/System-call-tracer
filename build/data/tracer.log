@@ -1,0 +1,72 @@
+# tracer started: 2025-09-10T04:00:00
+# tracing child pid: 8453
+ENTRY syscall=59 (execve)
+EXIT syscall=59 name=execve retval=0 time_ns=466768
+ENTRY syscall=59 (execve)
+EXIT syscall=12 name=unk retval=-38 time_ns=186893
+ENTRY syscall=12 (unk)
+EXIT syscall=158 name=unk retval=-38 time_ns=132341
+ENTRY syscall=158 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=106038
+ENTRY syscall=9 (unk)
+EXIT syscall=21 name=unk retval=-38 time_ns=31170
+ENTRY syscall=21 (unk)
+EXIT syscall=257 name=unk retval=-38 time_ns=16241
+ENTRY syscall=257 (unk)
+EXIT syscall=262 name=unk retval=-38 time_ns=11673
+ENTRY syscall=262 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=11430
+ENTRY syscall=9 (unk)
+EXIT syscall=3 name=close retval=-38 time_ns=11035
+ENTRY syscall=3 (close)
+EXIT syscall=257 name=unk retval=-38 time_ns=21028
+ENTRY syscall=257 (unk)
+EXIT syscall=0 name=read retval=-38 time_ns=11595
+ENTRY syscall=0 (read)
+EXIT syscall=17 name=unk retval=-38 time_ns=11782
+ENTRY syscall=17 (unk)
+EXIT syscall=17 name=unk retval=-38 time_ns=11197
+ENTRY syscall=17 (unk)
+EXIT syscall=17 name=unk retval=-38 time_ns=10913
+ENTRY syscall=17 (unk)
+EXIT syscall=262 name=unk retval=-38 time_ns=10887
+ENTRY syscall=262 (unk)
+EXIT syscall=17 name=unk retval=-38 time_ns=11784
+ENTRY syscall=17 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=11395
+ENTRY syscall=9 (unk)
+EXIT syscall=10 name=unk retval=-38 time_ns=11255
+ENTRY syscall=10 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=11373
+ENTRY syscall=9 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=11550
+ENTRY syscall=9 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=11106
+ENTRY syscall=9 (unk)
+EXIT syscall=9 name=unk retval=-38 time_ns=16518
+ENTRY syscall=9 (unk)
+EXIT syscall=3 name=close retval=-38 time_ns=24643
+ENTRY syscall=3 (close)
+EXIT syscall=9 name=unk retval=-38 time_ns=25028
+ENTRY syscall=9 (unk)
+EXIT syscall=158 name=unk retval=-38 time_ns=16500
+ENTRY syscall=158 (unk)
+EXIT syscall=218 name=unk retval=-38 time_ns=11256
+ENTRY syscall=218 (unk)
+EXIT syscall=273 name=unk retval=-38 time_ns=11005
+ENTRY syscall=273 (unk)
+EXIT syscall=334 name=unk retval=-38 time_ns=11183
+ENTRY syscall=334 (unk)
+EXIT syscall=10 name=unk retval=-38 time_ns=64288
+ENTRY syscall=10 (unk)
+EXIT syscall=10 name=unk retval=-38 time_ns=34583
+ENTRY syscall=10 (unk)
+EXIT syscall=10 name=unk retval=-38 time_ns=19315
+ENTRY syscall=10 (unk)
+EXIT syscall=302 name=unk retval=-38 time_ns=27695
+ENTRY syscall=302 (unk)
+EXIT syscall=11 name=unk retval=-38 time_ns=23978
+ENTRY syscall=11 (unk)
+EXIT syscall=231 name=exit_group retval=-38 time_ns=44514
+# child exited. status=0
+# tracer finished: 2025-09-10T04:00:00

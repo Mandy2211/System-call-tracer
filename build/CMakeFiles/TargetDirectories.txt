@@ -1,0 +1,3 @@
+/home/mandy/syscall-tracer/build/CMakeFiles/tracer.dir
+/home/mandy/syscall-tracer/build/CMakeFiles/edit_cache.dir
+/home/mandy/syscall-tracer/build/CMakeFiles/rebuild_cache.dir

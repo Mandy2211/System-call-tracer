@@ -1,0 +1,84 @@
+# tracer started: 2025-09-12T08:50:09
+# tracing pid: 9352
+ENTRY syscall=59 (execve)
+EXIT syscall=59 name=execve retval=0 time_ns=359984
+ENTRY syscall=59 (execve)
+EXIT syscall=59 name=execve retval=-38 time_ns=133876
+ENTRY syscall=12 (brk)
+EXIT syscall=12 name=brk retval=-38 time_ns=194288
+ENTRY syscall=158 (arch_prctl)
+EXIT syscall=158 name=arch_prctl retval=-38 time_ns=61940
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=25548
+ENTRY syscall=21 (access)
+EXIT syscall=21 name=access retval=-38 time_ns=18911
+ENTRY syscall=257 (openat)
+EXIT syscall=257 name=openat retval=-38 time_ns=13796
+ENTRY syscall=262 (newfstatat)
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=12859
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=13083
+ENTRY syscall=3 (close)
+EXIT syscall=3 name=close retval=-38 time_ns=21768
+ENTRY syscall=257 (openat)
+EXIT syscall=257 name=openat retval=-38 time_ns=12742
+ENTRY syscall=0 (read)
+EXIT syscall=0 name=read retval=-38 time_ns=12891
+ENTRY syscall=17 (pread64)
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12996
+ENTRY syscall=17 (pread64)
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12825
+ENTRY syscall=17 (pread64)
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12638
+ENTRY syscall=262 (newfstatat)
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=13379
+ENTRY syscall=17 (pread64)
+EXIT syscall=17 name=pread64 retval=-38 time_ns=13330
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=12682
+ENTRY syscall=10 (mprotect)
+EXIT syscall=10 name=mprotect retval=-38 time_ns=12928
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=12975
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=12880
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=19514
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=26010
+ENTRY syscall=3 (close)
+EXIT syscall=3 name=close retval=-38 time_ns=28870
+ENTRY syscall=9 (mmap)
+EXIT syscall=9 name=mmap retval=-38 time_ns=18749
+ENTRY syscall=158 (arch_prctl)
+EXIT syscall=158 name=arch_prctl retval=-38 time_ns=12636
+ENTRY syscall=218 (set_tid_address)
+EXIT syscall=218 name=set_tid_address retval=-38 time_ns=12893
+ENTRY syscall=273 (set_robust_list)
+EXIT syscall=273 name=set_robust_list retval=-38 time_ns=13167
+ENTRY syscall=334 (rseq)
+EXIT syscall=334 name=rseq retval=-38 time_ns=70417
+ENTRY syscall=10 (mprotect)
+EXIT syscall=10 name=mprotect retval=-38 time_ns=27744
+ENTRY syscall=10 (mprotect)
+EXIT syscall=10 name=mprotect retval=-38 time_ns=19656
+ENTRY syscall=10 (mprotect)
+EXIT syscall=10 name=mprotect retval=-38 time_ns=29729
+ENTRY syscall=302 (prlimit64)
+EXIT syscall=302 name=prlimit64 retval=-38 time_ns=37292
+ENTRY syscall=11 (munmap)
+EXIT syscall=11 name=munmap retval=-38 time_ns=59046
+ENTRY syscall=262 (newfstatat)
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=13403
+ENTRY syscall=318 (getrandom)
+EXIT syscall=318 name=getrandom retval=-38 time_ns=14787
+ENTRY syscall=12 (brk)
+EXIT syscall=12 name=brk retval=-38 time_ns=13453
+ENTRY syscall=12 (brk)
+EXIT syscall=12 name=brk retval=-38 time_ns=31367
+ENTRY syscall=1 (write)
+EXIT syscall=1 name=write retval=-38 time_ns=38362
+ENTRY syscall=1 (write)
+EXIT syscall=1 name=write retval=-38 time_ns=91695
+# child exited. status=0
+# tracer finished: 2025-09-12T08:50:09
