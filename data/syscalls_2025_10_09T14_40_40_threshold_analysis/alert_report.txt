@@ -1,0 +1,18 @@
+================================================================================
+SYSTEM CALL ANALYSIS - THRESHOLD ALERT REPORT
+================================================================================
+
+✓ No critical issues detected.
+
+
+WARNING ISSUES (Should Be Monitored):
+--------------------------------------------------------------------------------
+
+futex (called 5 times):
+  • WARNING: Consuming 11.1% of total time (threshold: 10.0%)
+
+execve (called 2 times):
+  • WARNING: Consuming 15.4% of total time (threshold: 10.0%)
+
+mmap (called 30 times):
+  • WARNING: Consuming 20.0% of total time (threshold: 10.0%)

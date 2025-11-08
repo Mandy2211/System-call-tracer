@@ -1,0 +1,21 @@
+================================================================================
+SYSTEM CALL ANALYSIS - THRESHOLD ALERT REPORT
+================================================================================
+
+✓ No critical issues detected.
+
+
+⚠️  WARNING ISSUES (Should Be Monitored):
+--------------------------------------------------------------------------------
+
+rt_sigprocmask (called 17 times):
+  • WARNING: Consuming 11.0% of total time (threshold: 10.0%)
+
+execve (called 2 times):
+  • WARNING: Consuming 14.1% of total time (threshold: 10.0%)
+
+mmap (called 30 times):
+  • WARNING: Consuming 24.1% of total time (threshold: 10.0%)
+
+mprotect (called 16 times):
+  • WARNING: Consuming 11.4% of total time (threshold: 10.0%)

@@ -1,0 +1,252 @@
+# tracer started: 2025-10-09T14:23:47
+# tracing program: ./test/lock (pid=10749)
+ENTRY syscall=59 name=execve
+EXIT syscall=59 name=execve retval=0 time_ns=555260
+ENTRY syscall=59 name=execve
+EXIT syscall=59 name=execve retval=-38 time_ns=72733
+ENTRY syscall=12 name=brk
+EXIT syscall=12 name=brk retval=-38 time_ns=78383
+ENTRY syscall=158 name=arch_prctl
+EXIT syscall=158 name=arch_prctl retval=-38 time_ns=54285
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=23438
+ENTRY syscall=21 name=access
+EXIT syscall=21 name=access retval=-38 time_ns=21760
+ENTRY syscall=257 name=openat
+EXIT syscall=257 name=openat retval=-38 time_ns=16049
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=14714
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=15887
+ENTRY syscall=3 name=close
+EXIT syscall=3 name=close retval=-38 time_ns=24208
+ENTRY syscall=257 name=openat
+EXIT syscall=257 name=openat retval=-38 time_ns=15136
+ENTRY syscall=0 name=read
+EXIT syscall=0 name=read retval=-38 time_ns=15346
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=15743
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=14169
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=14383
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12666
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12787
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=17926
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=28839
+ENTRY syscall=3 name=close
+EXIT syscall=3 name=close retval=-38 time_ns=23845
+ENTRY syscall=257 name=openat
+EXIT syscall=257 name=openat retval=-38 time_ns=12463
+ENTRY syscall=0 name=read
+EXIT syscall=0 name=read retval=-38 time_ns=13252
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=14151
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12617
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12490
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=13327
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=24218
+ENTRY syscall=3 name=close
+EXIT syscall=3 name=close retval=-38 time_ns=15757
+ENTRY syscall=257 name=openat
+EXIT syscall=257 name=openat retval=-38 time_ns=12765
+ENTRY syscall=0 name=read
+EXIT syscall=0 name=read retval=-38 time_ns=12637
+ENTRY syscall=17 name=pread64
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12874
+ENTRY syscall=17 name=pread64
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12441
+ENTRY syscall=17 name=pread64
+EXIT syscall=17 name=pread64 retval=-38 time_ns=12143
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=15503
+ENTRY syscall=17 name=pread64
+EXIT syscall=17 name=pread64 retval=-38 time_ns=13681
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12657
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=12644
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=13456
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12561
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=17620
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=24429
+ENTRY syscall=3 name=close
+EXIT syscall=3 name=close retval=-38 time_ns=19821
+ENTRY syscall=257 name=openat
+EXIT syscall=257 name=openat retval=-38 time_ns=12474
+ENTRY syscall=0 name=read
+EXIT syscall=0 name=read retval=-38 time_ns=12899
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=13152
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12575
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12918
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12727
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=27583
+ENTRY syscall=3 name=close
+EXIT syscall=3 name=close retval=-38 time_ns=37452
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=23683
+ENTRY syscall=158 name=arch_prctl
+EXIT syscall=158 name=arch_prctl retval=-38 time_ns=12540
+ENTRY syscall=218 name=set_tid_address
+EXIT syscall=218 name=set_tid_address retval=-38 time_ns=12758
+ENTRY syscall=273 name=set_robust_list
+EXIT syscall=273 name=set_robust_list retval=-38 time_ns=12776
+ENTRY syscall=334 name=rseq
+EXIT syscall=334 name=rseq retval=-38 time_ns=87848
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=35985
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=17272
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=161905
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=543289
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=40829
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=23145
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=30669
+ENTRY syscall=302 name=prlimit64
+EXIT syscall=302 name=prlimit64 retval=-38 time_ns=26611
+ENTRY syscall=11 name=munmap
+EXIT syscall=11 name=munmap retval=-38 time_ns=64292
+ENTRY syscall=318 name=getrandom
+EXIT syscall=318 name=getrandom retval=-38 time_ns=15711
+ENTRY syscall=12 name=brk
+EXIT syscall=12 name=brk retval=-38 time_ns=12822
+ENTRY syscall=12 name=brk
+EXIT syscall=12 name=brk retval=-38 time_ns=66980
+ENTRY syscall=202 name=futex
+EXIT syscall=202 name=futex retval=-38 time_ns=115520
+ENTRY syscall=262 name=newfstatat
+EXIT syscall=262 name=newfstatat retval=-38 time_ns=23147
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=23788
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=14764
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=16654
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=29895
+ENTRY syscall=13 name=rt_sigaction
+EXIT syscall=13 name=rt_sigaction retval=-38 time_ns=12919
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=13776
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=12666
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=20023
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=13229
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=47893
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=25160
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=25528
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=40542
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=15858
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=17770
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=17212
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=16538
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=40291
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=70310
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=21950
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=24200
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=19163
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=30435
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=14760
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=14872
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=16383
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=15171
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=22623
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=98696
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=15613
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=65684
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=18507
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=36030
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=25483
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=18153
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=15401
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=13862
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=20391
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=14018
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=14065
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=14767
+ENTRY syscall=9 name=mmap
+EXIT syscall=9 name=mmap retval=-38 time_ns=13882
+ENTRY syscall=10 name=mprotect
+EXIT syscall=10 name=mprotect retval=-38 time_ns=21540
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=13582
+ENTRY syscall=435 name=clone3
+EXIT syscall=435 name=clone3 retval=-38 time_ns=14341
+ENTRY syscall=14 name=rt_sigprocmask
+EXIT syscall=14 name=rt_sigprocmask retval=-38 time_ns=19454
+ENTRY syscall=202 name=futex
+EXIT syscall=202 name=futex retval=-38 time_ns=114310
+ENTRY syscall=11 name=munmap
+EXIT syscall=11 name=munmap retval=-38 time_ns=11600
+ENTRY syscall=11 name=munmap
+EXIT syscall=11 name=munmap retval=-38 time_ns=11511
+ENTRY syscall=11 name=munmap
+EXIT syscall=11 name=munmap retval=-38 time_ns=12579
+ENTRY syscall=11 name=munmap
+EXIT syscall=11 name=munmap retval=-38 time_ns=85363
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=10461
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=98215
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=34953
+ENTRY syscall=1 name=write
+EXIT syscall=1 name=write retval=-38 time_ns=32455
+# child exited with status 0
+# tracer finished: 2025-10-09T14:23:48

@@ -1,25 +1,26 @@
 // tracer.cpp
 #include <bits/stdc++.h>
 #include <sys/ptrace.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/user.h>
+#include <sys/types.h>    
+#include <sys/wait.h> 
+#include <sys/user.h> 
 #include <sys/syscall.h>
+
 #include <unistd.h>
-#include <fcntl.h>
-#include <errno.h>
+#include <fcntl.h>  
+#include <errno.h>   
 #include <ctime>
-#include <sys/stat.h>
-#include <time.h>
+#include <sys/stat.h>    
+#include <time.h>   
 
 #include "syscall_names.h" // provides SYSCALL_NAMES: unordered_map<long, string>
 
 using namespace std;
 
 struct SyscallStat {
-    long count = 0;
+    long count = 0; 
     long errors = 0;
-    long long total_time_ns = 0;
+    long long total_time_ns = 0; 
 };
 
 string now_iso() {
@@ -35,7 +36,6 @@ string syscall_name(long nr) {
 }
 
 int main() {
-    // --- Ask user for program directory + name ---
     string dir, fname;
     cout << "Enter the directory of the file to be traced: ";
     if (!getline(cin, dir)) return 1;

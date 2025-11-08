@@ -1,0 +1,21 @@
+================================================================================
+PERFORMANCE REGRESSION REPORT
+================================================================================
+
+Found 3 syscalls with performance regressions:
+
+CRITICAL: write
+  Time change: +101.0%
+  Absolute change: +216,745 ns
+  Call frequency change: +0
+
+CRITICAL: execve
+  Time change: +74.7%
+  Absolute change: +279,262 ns
+  Call frequency change: +0
+
+WARNING: close
+  Time change: +29.0%
+  Absolute change: +33,968 ns
+  Call frequency change: +0
+

@@ -1,0 +1,15 @@
+================================================================================
+SYSTEM CALL ANALYSIS - THRESHOLD ALERT REPORT
+================================================================================
+
+🔴 CRITICAL ISSUES (Immediate Attention Required):
+--------------------------------------------------------------------------------
+
+execve (called 2 times):
+  • CRITICAL: Consuming 31.3% of total time (threshold: 25.0%)
+
+⚠️  WARNING ISSUES (Should Be Monitored):
+--------------------------------------------------------------------------------
+
+brk (called 3 times):
+  • WARNING: Consuming 15.2% of total time (threshold: 10.0%)

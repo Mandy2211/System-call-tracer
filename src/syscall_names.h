@@ -364,7 +364,6 @@ static const std::unordered_map<long, std::string> SYSCALL_NAMES = {
     {446, "landlock_restrict_self"}
 };
 
-// Helper function to get syscall name by number
 inline std::string get_syscall_name(long syscall_num) {
     auto it = SYSCALL_NAMES.find(syscall_num);
     return (it != SYSCALL_NAMES.end()) ? it->second : "unknown_" + std::to_string(syscall_num);
